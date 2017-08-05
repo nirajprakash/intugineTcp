@@ -27,10 +27,10 @@ function handleConnection(conn) {
     var remoteAddress = conn.remoteAddress + ':' + conn.remotePort;
     console.log('new client connection from %s', remoteAddress);
 
-    console.log(conn.bytesRead);
+    //console.log(conn.bytesRead);
 
 
-    console.log(conn.allowHalfOpen);
+   // console.log(conn.allowHalfOpen);
 //    console.log(conn);
 
     conn.setEncoding('utf8');
